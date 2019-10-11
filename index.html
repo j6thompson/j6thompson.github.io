@@ -29,6 +29,13 @@
       min-height: 100%;
       z-index: -1;
      }
+     .footer{
+       position: fixed;
+       top: 90%;
+       right: 0;
+       left: 45%;
+       bottom: 0;
+     }
 
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -60,29 +67,28 @@
       }
     </style>
    
-  <title>Jordan's Website</title>
+  <title>Jordan Homepage</title>
 
 </head>
 <body class="body">
   <header >
   <!--  <video autoplay muted loop class="header_video"></video> -->
-   <h2 class="text-center"> Welcome to my first webpage, I hope you like it ! </h2>
+   <h2 class="text-center" style="color: red"> Welcome to my first webpage ! </h2>
     </header>
-
   <video autoplay muted loop class="Full-Screen"> <source src="binary.mov" ></video>
 
 
   <main class="container"> <!-- centered -->
     <div class="row">
       <div class="col-lg-4" >
-        <b>About me:</b><br>
+        <b style="color: red">About me:</b><br>
         <h6>Hello my name is Jordan Thompson. I am currently a senior at Bridgewater State University earning a bachelor's degree in Computer Science.</h6>
 
       </div> <!-- end of col-lg-4-->
       
       <div class="col-lg-4" >
           <div>
-              <b>Hobbies:</b><br>
+              <b style="color: red">Hobbies:</b><br>
              <h6> Some of my hobbies are playing games with my friends and also coding.</h6>
           </div>
       </div> <!-- end of col-lg-4-->
@@ -92,7 +98,7 @@
     <div class="row"> <!-- beginning of new row-->
       <div class="col-lg-4">
         <div>
-        <b>Course Work:</b>
+        <b style="color: red">Course Work:</b>
         <ul>
           <li>Computer Science I and II</li>
           <li>Data Structures and Algorithms</li>
@@ -105,15 +111,22 @@
         </ul>
         </div>
       </div>
+      <div>
+        <img src="Homepage/Miami.jpg" img class="rounded-circle" height="420px" width="420px" style="text-align: center">
+      </div>
     </div>
   </main>
   <div class="body-content">
    
   <div class="menu">
     <ul class="fa-ul">
-      <li><icon class="fas fa-bars fa-2x"></icon> Menu </li>
-      <li><icon class="far fa-file fa-2x"></icon><a style="color: white" href="Homepage/JordanThompsonResume2019.pdf">Resume</a></li>
+      <li style="color: white"><icon class="fas fa-bars fa-1.5x" style="color: red"></icon > Menu </style></li>
+      <li style="color: white"><icon class="far fa-file fa-1.5x" style="color: red"></icon><a style="color: white" href="Homepage/JordanThompsonResume2019.pdf">Resume</a></li>
     </ul>
+  </div>
+  <div class="footer">
+      Contact Me:<br>
+      Cell Phone: <a style="color: white" href="tel:7742941986">(774)-294-1986</a><br>
   </div>
 </body>
 </html>
