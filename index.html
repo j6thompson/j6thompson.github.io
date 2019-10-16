@@ -3,8 +3,7 @@
   <meta charset="utf-8" >
   <style>
     .body{
-      color: white;
-      
+      color: white;      
     }
     .body-content{
       position: fixed;
@@ -18,8 +17,7 @@
       left: 70%;
       right: 0%;
     }
-    .Full-Screen{
-               
+    .Full-Screen{           
       position: fixed;
       margin:0;
       top: 0;
@@ -30,21 +28,22 @@
       min-height: 100%;
       z-index: -1;
      }
-      .header{
+     .header{
       color: red;
-      background-color: rgba(0, 0, 0, 0.753);
+      background-color: rgba(0, 0, 0, 0.653);
      }
      .footer{
        position: fixed;
        text-align: center;
        margin: 0;
-       top: 85%;
+       top: 87%;
        right: 0;
        left: 0;
        bottom: 0;
        color: red;
-       background-color: rgba(0, 0, 0, 0.753);
+       background-color: rgba(0, 0, 0, 0.653);
      }
+    
      
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -81,24 +80,24 @@
 </head>
 <body class="body">
   <header class="header">
-   <h2 class="text-center" style="color: red"> Welcome to my first webpage ! </h2>
+  <!--  <video autoplay muted loop class="header_video"></video> -->
+   <h2 class="text-center" > Welcome to my first webpage ! </h2>
     </header>
-  <video autoplay muted loop class="Full-Screen"> <source src="binary.mov" ></video>
+  <video autoplay muted loop class="Full-Screen" height="auto" width="100%"> <source src="binary.mov" ></video>
 
 
   <main class="container"> <!-- centered -->
     <div class="row">
       <div class="col-lg-4" >
         <b style="color: red">About me:</b><br>
-        <h6>Hello, my name is Jordan Thompson. I am currently a senior at Bridgewater State University earning a bachelor's degree in Computer Science. My expected graduation date is May 2020.
-As of this semester, my focus has been on web applications and development.</h6>
+        <h6>Hello, my name is Jordan Thompson. I am currently a senior at Bridgewater State University earning a bachelor's degree in Computer Science. My expected graduation date is May 2020. As of this semester, my focus has been on web applications and development.</h6>
 
       </div> <!-- end of col-lg-4-->
       
       <div class="col-lg-4" >
           <div>
               <b style="color: red">Hobbies:</b><br>
-             <h6> Some of my hobbies are coding, playing games on my phone, and also watching a good series on Netflix. I try to learn new things on my own by trial and error when I am coding or changing things on this site.</h6>
+             <h6>Some of my hobbies are coding, playing games on my phone, and also watching a good series on Netflix. I try to learn new things on my own by trial and error when I am coding or changing things on this site.</h6>
           </div>
       </div> <!-- end of col-lg-4-->
                 
@@ -121,23 +120,25 @@ As of this semester, my focus has been on web applications and development.</h6>
         </ul>
         </div>
       </div>
-      <div>
-        <img src="Homepage/Miami.jpg" img class="rounded-circle" height="420px" width="420px" style="text-align: center">
-      </div>
+      <div class="picture">
+      
+        <img src="Homepage/Miami.jpg" img class="rounded-circle" height="420px" width="420px">
+      
+    </div>
     </div>
   </main>
   <div class="body-content">
    
   <div class="menu">
     <ul class="fa-ul">
-      <li style="color: white"><icon class="fas fa-home fa-1.5x" style="color: red"></icon><a href="" style="color: white;"> Home</a></li>
+      <li style="color: white;"><icon class="fas fa-home fa-1.5x" style="color: red"></icon><a href="" style="color: white;"> Home</a></li>
       <li style="color: white"><icon class="fas fa-bars fa-1.5x" style="color: red"></icon > Menu </style></li>
       <li style="color: white"><icon class="far fa-file fa-1.5x" style="color: red"></icon><a style="color: white" href="Homepage/JordanThompsonResume2019.pdf">Resume</a></li>
     </ul>
   </div>
   <div class="footer">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6" style="text-align: left;">
           <strong>Contact Information:<br>
             School Email: <a style="color: white" href="mailto:J6thompson@student.bridgew.edu">J6thompson@student.bridgew.edu<icon class="fas fa-envelope fa-1.5x" style="color: red;"></icon></a><br>
             Personal Email: <a style="color: white" href="mailto:Jordan.S.Thompson0129@gmail.com">Jordan.S.Thompson0129@gmail.com<icon class="fas fa-envelope fa-1.5x" style="color: red;"></icon></a><br>
@@ -147,9 +148,7 @@ As of this semester, my focus has been on web applications and development.</h6>
         <a href="https://github.com/j6thompson" style="color: red;"><icon class="fab fa-github fa-3x"></icon></a>
         <a href="https://www.linkedin.com/in/jordan-thompson-6202b5127/" style="color: red;"><icon class="fab fa-linkedin fa-3x"></icon></a>
       </div>
-    </div>
-    
-        
+      </div>
     </div>
 </body>
 </html>
